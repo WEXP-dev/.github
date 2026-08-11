@@ -1,11 +1,10 @@
 # WEXP
 
-Witnessed Execution for software and AI systems.
-
-WEXP is an IETF-oriented specification effort for independently verifiable
-claims about software and AI execution within explicit evidence and observation
-boundaries. The specifications define WEXP; vectors and reference tooling
-support implementation without replacing that authority.
+WEXP (Witnessed Execution Protocol) is an IETF-oriented specification effort
+for evaluating support for claims about software and AI execution within
+explicit evidence and observation boundaries. The specifications define WEXP;
+vectors and reference tooling support implementation without replacing that
+authority.
 
 ## Repositories
 
