@@ -2,9 +2,9 @@
 
 Witnessed Execution for software and AI systems.
 
-WEXP is an IETF-oriented effort to specify independently verifiable claims
-about software and AI execution. It makes the limits of the supporting evidence
-and observations explicit.
+WEXP is an IETF-oriented effort to classify the evidentiary strength of claims
+about software and AI execution, subject to explicit evidence and observation
+boundaries.
 
 The specifications define WEXP. Test vectors and the reference implementation
 help developers use the specifications; they do not add or change requirements.
