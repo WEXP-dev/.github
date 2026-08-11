@@ -2,23 +2,25 @@
 
 WEXP (Witnessed Execution Protocol) is an IETF-oriented specification effort
 for evaluating support for claims about software and AI execution within
-explicit evidence and observation boundaries. The specifications define WEXP;
-vectors and reference tooling support implementation without replacing that
-authority.
+explicit evidence and observation boundaries.
+
+The specifications define WEXP. Test vectors and the reference implementation
+help developers use the specifications; they do not add or change requirements.
 
 ## Repositories
 
 - [wexp-spec](https://github.com/WEXP-dev/wexp-spec) — published WEXP
-  specification states.
+  specifications and their provenance.
 - [wexp-vectors](https://github.com/WEXP-dev/wexp-vectors) —
-  implementation-independent test-vector infrastructure.
-- [wexp-ref](https://github.com/WEXP-dev/wexp-ref) — conservative reference
-  implementation and generic tooling.
+  schemas and validation tools for implementation-independent WEXP test vectors.
+- [wexp-ref](https://github.com/WEXP-dev/wexp-ref) — the reference
+  implementation and generic execution tools.
 
 ## Current status
 
-- Current published specification:
-  [`draft-sergeev-wexp-core-00`](https://datatracker.ietf.org/doc/html/draft-sergeev-wexp-core-00).
-- Released normative protocol vectors: none yet.
-- The reference implementation is deliberately conservative and may lag the
-  published specifications.
+- The published specification is
+  [`draft-sergeev-wexp-core-00`](https://datatracker.ietf.org/doc/html/draft-sergeev-wexp-core-00),
+  an Internet-Draft rather than an Internet Standard.
+- No normative WEXP protocol vectors have been released.
+- The reference implementation provides generic tools but does not yet
+  implement the Core `-00` verification model.
