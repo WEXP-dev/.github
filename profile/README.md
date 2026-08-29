@@ -16,7 +16,10 @@ help developers use the specifications; they do not add or change requirements.
 - [wexp-ref](https://github.com/WEXP-dev/wexp-ref) — the reference
   implementation and generic execution tools.
 - [wexp-interop](https://github.com/WEXP-dev/wexp-interop) — experimental
-  interoperability records for WEXP and external systems.
+  interoperability records for WEXP and external systems. Interop records test
+  cross-system semantic mappings under frozen expectations and explicit claim
+  boundaries; an experiment may validly terminate in non-equivalence or an
+  explicit bridge requirement.
 - [interop-test-lab](https://github.com/WEXP-dev/interop-test-lab) and
   [interop-test-subject](https://github.com/WEXP-dev/interop-test-subject) —
   experimental interoperability test infrastructure for the Prototype-000 lab,
