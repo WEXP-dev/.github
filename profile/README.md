@@ -34,13 +34,15 @@ help developers use the specifications; they do not add or change requirements.
   standardization.
 - [`draft-sergeev-wexp-core-00`](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/00/)
   is the previous revision and remains available.
-- Two public Core `-01` vector sets exist: `WEXP-CORE-01-VECTORS-001`, sixteen
-  vectors transcribed from the draft's normative fixtures C01–C16, and
-  `WEXP-CORE-01-VECTORS-002`, nine further vectors that widen coverage. Both
-  are specification-derived. Seven Core `-00` vectors remain available as a
-  candidate set. **No set is a conformance suite**; passing one means an
-  implementation agreed with expectations derived from the specification, and
-  is not certification.
+- Public Core `-01` vector sets are published in
+  [`wexp-vectors`](https://github.com/WEXP-dev/wexp-vectors), which carries the
+  current sets, their exact identities, and their specification binding. They
+  are specification-derived: every expected outcome is transcribed from
+  published specification text, never from observed implementation behaviour. A
+  Core `-00` candidate set remains available. **No set is a conformance
+  suite**; passing one means an implementation agreed with expectations derived
+  from the specification, and is not certification. A vector count is not a
+  maturity measure and is not maintained here.
 - Public Core `-01` reference tooling exists in `wexp-ref`. Its Core-01
   conformance is **`PARTIAL` by design** — a deliberate, enumerated partial
   surface with its absences listed, not a claim of complete Core appraisal. It
