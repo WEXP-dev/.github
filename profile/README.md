@@ -48,13 +48,12 @@ help developers use the specifications; they do not add or change requirements.
   surface with its absences listed, not a claim of complete Core appraisal. It
   consumes the vectors at a pinned commit and does not define protocol
   semantics; where it and a specification disagree, the specification wins.
-- One experimental interoperability record is published:
-  [**INTEROP-001**](https://github.com/WEXP-dev/wexp-interop) (WEXP × EMILIA,
-  DOI [`10.5281/zenodo.22056151`](https://doi.org/10.5281/zenodo.22056151)).
-  It is bounded evidence from a controlled experiment with independently frozen
-  readings and expectations. Its terminal result is *Explicit Bridge Required*.
-  It establishes no semantic equivalence, no mutual validation, no conformance,
-  no certification, no adopted mapping, and no general interoperability claim.
+- Experimental interoperability records, including WEXP × EMILIA and
+  WEXP × WIMSE AAR-02, are indexed in the
+  [versioned collection](https://github.com/WEXP-dev/wexp-interop#experimental-records).
+  Use each package's result, exact carrier and reproduction scope. A collection
+  entry is not a conformance, certification or general interoperability claim;
+  the catalog, rather than a count copied here, is the navigation source.
 - `interop-test-lab` is an **experimental Prototype-000 lab**: disposable test
   infrastructure for running an interoperability exercise between WEXP and a
   synthetic counterparty. It is not a production platform, not a generic
@@ -62,6 +61,14 @@ help developers use the specifications; they do not add or change requirements.
   and not a certification system.
 - WEXP Native Record is **not published**. No Native Record revision has been
   submitted to or posted by the IETF.
+
+## Preparing a revision
+
+The [publication process](https://github.com/WEXP-dev/wexp-spec/blob/main/PUBLICATION-PROCESS.md)
+separates a frozen candidate, exact author approval, submission and verification
+of the official archive. [Tooling guidance](https://github.com/WEXP-dev/wexp-spec/blob/main/publication/README.md)
+explains the manual default and optional transport. CI and experimental results
+do not authorize publication or establish specification conformance.
 
 ## What none of this is
 
