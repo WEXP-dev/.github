@@ -11,6 +11,7 @@ help developers use the specifications; they do not add or change requirements.
 
 - [wexp-spec](https://github.com/WEXP-dev/wexp-spec) — published WEXP
   specifications and their provenance. **Authoritative.**
+- [wexp-coverage-spec](https://github.com/WEXP-dev/wexp-coverage-spec) — published Coverage specification and artifact provenance.
 - [wexp-vectors](https://github.com/WEXP-dev/wexp-vectors) —
   schemas and validation tools for implementation-independent WEXP test vectors.
 - [wexp-ref](https://github.com/WEXP-dev/wexp-ref) — the reference
@@ -27,13 +28,15 @@ help developers use the specifications; they do not add or change requirements.
 
 ## Current status
 
-- The current specification is
-  [`draft-sergeev-wexp-core-01`](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/01/),
-  posted at the IETF on 2026-08-17. It is an Internet-Draft, not an Internet
+- The current Core specification is
+  [`draft-sergeev-wexp-core-02`](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/02/),
+  dated 23 October 2026 and published at the IETF. It is an Internet-Draft, not an Internet
   Standard. Being posted is not working-group adoption, consensus, or
   standardization.
 - [`draft-sergeev-wexp-core-00`](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/00/)
-  is the previous revision and remains available.
+  remains available, as does [Core -01](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/01/), the immediately preceding Core revision.
+- [WEXP Coverage -00](https://datatracker.ietf.org/doc/draft-sergeev-wexp-coverage/00/) is also published. Its bounded coverage claims and outcomes are separate from Core appraisals.
+- The published vector sets and reference tooling below remain bound to Core-01; publication of Core-02 does not establish their conformance to Core-02.
 - Public Core `-01` vector sets are published in
   [`wexp-vectors`](https://github.com/WEXP-dev/wexp-vectors), which carries the
   current sets, their exact identities, and their specification binding. They
@@ -67,7 +70,7 @@ help developers use the specifications; they do not add or change requirements.
 The [publication process](https://github.com/WEXP-dev/wexp-spec/blob/main/PUBLICATION-PROCESS.md)
 separates a frozen candidate, exact author approval, submission and verification
 of the official archive. [Tooling guidance](https://github.com/WEXP-dev/wexp-spec/blob/main/publication/README.md)
-explains the manual default and optional transport. CI and experimental results
+explains the release-triggered GitHub submission procedure and manual alternative. CI and experimental results
 do not authorize publication or establish specification conformance.
 
 ## What none of this is
