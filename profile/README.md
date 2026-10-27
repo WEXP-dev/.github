@@ -4,14 +4,19 @@ WEXP (Witnessed Execution Protocol) is an IETF-oriented specification effort
 for evaluating support for claims about software and AI execution within
 explicit evidence and observation boundaries.
 
+Appraisal Core and Coverage are separate specifications: Core evaluates support
+for execution-related claims about exact targets; Coverage evaluates bounded
+population and record-correspondence claims. Neither replaces a recipient's
+application decision.
+
 The specifications define WEXP. Test vectors and the reference implementation
 help developers use the specifications; they do not add or change requirements.
 
 ## Repositories
 
-- [wexp-spec](https://github.com/WEXP-dev/wexp-spec) — published WEXP
-  specifications and their provenance. **Authoritative.**
-- [wexp-coverage-spec](https://github.com/WEXP-dev/wexp-coverage-spec) — published Coverage specification and artifact provenance.
+- [wexp-appraisal-core-spec](https://github.com/WEXP-dev/wexp-appraisal-core-spec) —
+  published WEXP Core revisions and their provenance. **Core specification authority.**
+- [wexp-coverage-spec](https://github.com/WEXP-dev/wexp-coverage-spec) — published Coverage specification and artifact provenance. **Coverage specification authority.**
 - [wexp-vectors](https://github.com/WEXP-dev/wexp-vectors) —
   schemas and validation tools for implementation-independent WEXP test vectors.
 - [wexp-ref](https://github.com/WEXP-dev/wexp-ref) — the reference
@@ -67,9 +72,9 @@ help developers use the specifications; they do not add or change requirements.
 
 ## Preparing a revision
 
-The [publication process](https://github.com/WEXP-dev/wexp-spec/blob/main/PUBLICATION-PROCESS.md)
+The [publication process](https://github.com/WEXP-dev/wexp-appraisal-core-spec/blob/main/PUBLICATION-PROCESS.md)
 separates a frozen candidate, exact author approval, submission and verification
-of the official archive. [Tooling guidance](https://github.com/WEXP-dev/wexp-spec/blob/main/publication/README.md)
+of the official archive. [Tooling guidance](https://github.com/WEXP-dev/wexp-appraisal-core-spec/blob/main/publication/README.md)
 explains the release-triggered GitHub submission procedure and manual alternative. CI and experimental results
 do not authorize publication or establish specification conformance.
 
