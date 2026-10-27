@@ -41,7 +41,14 @@ help developers use the specifications; they do not add or change requirements.
 - [`draft-sergeev-wexp-core-00`](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/00/)
   remains available, as does [Core -01](https://datatracker.ietf.org/doc/draft-sergeev-wexp-core/01/), the immediately preceding Core revision.
 - [WEXP Coverage -00](https://datatracker.ietf.org/doc/draft-sergeev-wexp-coverage/00/) is also published. Its bounded coverage claims and outcomes are separate from Core appraisals.
-- The published vector sets and reference tooling below remain bound to Core-01; publication of Core-02 does not establish their conformance to Core-02.
+- The historical vector sets and the Core `-01` reference tooling below remain bound to Core-01; publication of Core-02 does not establish their conformance to Core-02.
+- Separately, a bounded Core-02 corpus
+  ([`WEXP-CORE-02-VECTORS-001`](https://github.com/WEXP-dev/wexp-vectors/tree/main/vectors/WEXP-CORE-02-VECTORS-001),
+  89 complete cases with frozen `corpus.json`) and a version-scoped Core-02 appraiser module in
+  `wexp-ref` ([surface and limits](https://github.com/WEXP-dev/wexp-ref/blob/main/CORE02-CONFORMANCE.md))
+  are published. Agreement of that module with the pinned corpus is bounded author-side
+  qualification, not full Core-02 conformance, carrier or AAC/WIMSE interoperability, or a new
+  interop result. No Coverage evaluator or `pg-ledger/0.2.0` implementation is published.
 - Public Core `-01` vector sets are published in
   [`wexp-vectors`](https://github.com/WEXP-dev/wexp-vectors), which carries the
   current sets, their exact identities, and their specification binding. They
