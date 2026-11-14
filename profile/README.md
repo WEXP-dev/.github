@@ -12,6 +12,14 @@ application decision.
 The specifications define WEXP. Test vectors and the reference implementation
 help developers use the specifications; they do not add or change requirements.
 
+## Take part
+
+| You want to | Start here |
+|---|---|
+| Replay the published corpus comparison | Fork [wexp-check](https://github.com/WEXP-dev/wexp-check), enable Actions, run "Replay the corpus comparison" ([details](https://github.com/WEXP-dev/wexp-check/blob/main/REPRODUCE.md)) |
+| Examine a record or format of your own, or an Internet-Draft | [Start an interoperability check](https://github.com/WEXP-dev/interop-test-lab/blob/main/START-HERE.md): a project name and one public link are enough |
+| Run your own implementation of Core-02 on the public corpus | [Bring an implementation](https://github.com/WEXP-dev/interop-test-lab/blob/main/BRING-AN-IMPLEMENTATION.md) |
+
 ## Repositories
 
 - [wexp-appraisal-core-spec](https://github.com/WEXP-dev/wexp-appraisal-core-spec) —
