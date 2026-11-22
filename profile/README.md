@@ -45,6 +45,13 @@ help developers use the specifications; they do not add or change requirements.
   [interop-test-subject](https://github.com/WEXP-dev/interop-test-subject) —
   experimental interoperability test infrastructure for the Prototype-000 lab,
   and the synthetic counterparty it exercises.
+- [verdict-record-checker](https://github.com/WEXP-dev/verdict-record-checker) —
+  a checker for the external Internet-Draft `draft-wright-verdict-record-02`
+  (Verdict Records), written in an AI-assisted session from the text of the
+  draft and the vector data files of `diggertydog/verdict-record-test-vectors`
+  at `a867a23`. That nothing else from that repository was read is an operator
+  declaration. The code as first run is kept next to the fixed version, with
+  per-vector results on all 91 vectors.
 
 ## Current status
 
